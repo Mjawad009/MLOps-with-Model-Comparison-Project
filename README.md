@@ -38,21 +38,3 @@ The app visualizes and compares results in real-time to help understand model pe
 
 ---
 
-## 📂 Folder Structure
-
-Model-Comparison-WebApp/
-│
-├── models/                  # Pickled model files (.pkl)
-│   ├── linear_model.pkl
-│   ├── decision_tree.pkl
-│   ├── random_forest.pkl
-│   └── xgboost.pkl
-│
-├── app.py                  # Flask application entry point
-│
-├── templates/
-│   └── index.html          # Frontend UI for user input and results
-│
-├── Dockerfile              # For containerizing the app
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
